@@ -1,0 +1,244 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.banner
+{
+    background-image: url(../img/bannerr.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.logo img{
+    width: 60px;
+    height: 30px;
+    border-radius: 20px;
+    position: absolute;
+    top: 28px;
+    margin-left: 1px;
+}
+.logo{
+    display: inline-block;
+    margin-left: 90px;
+}
+.nav{
+    position: absolute;
+    top: 25px;
+    margin-left: 100px;
+    display: inline-block;
+    
+}
+.items{
+    display: inline-block;
+}
+.item{
+    display: inline-block;
+    padding: 10px 20px; 
+}
+.item a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: bold;
+    list-style: none;
+}
+.item a:hover{
+    color: rgb(100, 100, 100);
+    
+}
+
+.button{
+    position: absolute;
+    top: 25px;
+    margin-left: 70%;
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(to right, #111111 0%, #000000 10%, #ffffff 100%);
+    background-size: 200% auto;
+    transition: 1s;
+}
+.button:hover{
+    background-position: right center;
+    color: black;
+
+}
+.button{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 1s;
+    
+}
+.button:hover{
+    color: black;
+    transition: 1s;
+}
+
+/* Header tamom */
+
+.main-info{
+    margin-top: 150px;
+    text-align: center;
+}
+.main-info h5{
+    margin-bottom: 30px;
+    color: white;
+    letter-spacing: 2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: 1s;
+}
+.main-info h1{
+    margin-bottom: 30px;
+    color: white;
+    font-size: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: 2s;
+}
+.main-info h1 span{
+    background: linear-gradient(90deg, #494949 0%, #bebebe 20%, #494949 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.main-info p{
+    color: white;
+    letter-spacing: 5px;
+    transition: 3s;
+}
+
+.main-info .icon i{
+    margin-top: 30px;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+}
+.main-info .icon i:hover{
+    color: gray;
+}
+
+
+
+
+/* About */
+
+.about-info > div {
+    width: 50%;
+    float: right;
+}
+
+.about-info .info h3{
+    font-size: 40px;
+    margin-top: 100px;
+    margin-left: 41%;
+    transition: 2s;
+}
+.about-info .info p{
+    margin-top: 26px;
+    margin-left: 22%;
+    letter-spacing: 5px;
+    line-height: 30px;
+    transition: 2.3s;
+    
+}
+
+.about-info .image{
+    margin-top: 30px;
+    transition: 3s;
+}
+
+/* Services */
+.bannerr
+{
+    background-image: url(../img/bannerr.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+.services{
+    
+    margin-top: 450px;
+}
+
+.services-info{
+    position: relative;
+    top: 30px;
+    left: 40px;
+    font-size: 40px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.services-cards .bir{
+    transition: 1s;
+}
+.services-cards .ikki{
+    transition: 2s;
+}
+.services-cards .uch{
+    transition: 3s;
+}
+.services-card{
+
+    text-align: center;
+    margin-top: 100px;
+    width: 30%;
+    border: 3%;
+    display: inline-block;
+    padding: 0 30px;
+    box-sizing: border-box;
+    
+}
+.services-card .chiqish{
+    visibility: hidden;
+}
+
+.services-card:hover .chiqish{
+    visibility: visible;
+    transition: 3s;
+}
+.services-card img{
+    width: 300px;
+    height: 200px;
+}
+.services-card h3{
+    position: relative;
+    top: -190px;
+    letter-spacing: 2px;
+    margin-left: 30px;
+    color:#fff;
+    background: linear-gradient(90deg, #339eb9 0%, #841c92 20%, #39bd8a 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.services-card p{
+    padding: 10px;
+    position: relative;
+    top: -190px;
+    font-weight: bold;
+    color:#fff;
+    
+    letter-spacing: 2px;
+    background: linear-gradient(90deg, #e0e8eb 0%, #dfbee4 20%, #a0b3ab 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.services-card a{
+    position: relative;
+    padding: 10px;
+    top: -180px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-left: 30px;
+    border: 1px solid blue;
+    border-radius: 20px;
+}
+.services-card a:hover{
+    border: 1px solid rgb(3, 3, 3);
+    
+}
